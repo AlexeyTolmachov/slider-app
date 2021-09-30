@@ -9,15 +9,9 @@
 
 
 }
-.imgSlider{
-  width: 50%;
-  height: 50%;
-  border: 20px solid rgba(170, 164, 164, 0.459); 
 
-}
 .btn {
-position: absolute;
-right: 500px;
+padding: 15px 30px;
 
 }
 .btn-left{
@@ -30,4 +24,17 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 width: 50%;
+}
+.imgSlider{
+  width: 50%;
+  height: 50%;
+  border: 20px solid rgba(170, 164, 164, 0.459); 
+
+}
+.imgSliderRaz{
+  width: 100vw;
+  height: 95vh;
+  border: 20px solid rgba(17, 13, 13, 0.459); 
+  object-fit: cover;
+  object-position: center;
 }

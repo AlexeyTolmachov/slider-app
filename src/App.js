@@ -4,8 +4,9 @@ import Carusel from './components/slider';
 
 function App() {
   return (
-    <div className="App">
-     < Carusel />
+    <div>
+     <Carusel />
+
       
     </div>
   );
